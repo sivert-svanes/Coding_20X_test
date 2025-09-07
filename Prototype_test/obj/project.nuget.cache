@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uSTLsxfXN+M=",
+  "dgSpecHash": "E+rUrU7hk9Y=",
   "success": true,
-  "projectFilePath": "C:\\Users\\siver\\source\\repos\\Prototype_test\\Prototype_test.csproj",
+  "projectFilePath": "C:\\Users\\siver\\Source\\Repos\\Coding_20X_test\\Prototype_test\\Prototype_test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\siver\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.22.1\\microsoft.visualstudio.azure.containers.tools.targets.1.22.1.nupkg.sha512"
   ],
