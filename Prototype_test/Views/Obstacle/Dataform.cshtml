@@ -1,0 +1,41 @@
+﻿@model Prototype_test.Models.ObstacleData
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+<div>
+    <h1>Obstacle Registration Form</h1>
+    <p>Please register an obstacle:</p>
+    <form asp-action="DataForm" method="post">
+
+        <div>
+            <label asp-for="ObstacleName">Obstacle Name:</label>
+            <input asp-for="ObstacleName" />
+            <span asp-validation-for="ObstacleName" class="text-sm-center text-red-600"></span>
+        </div>
+
+        <div>
+            <label asp-for="ObstacleHeight">Obstacle Height in meters:</label>
+            <input asp-for="ObstacleHeight" />
+            <span asp-validation-for="ObstacleHeight" class="text-sm-center text-red-600"></span>
+        </div>
+
+        <div>
+            <label asp-for="ObstacleDescription">Obstacle Description:</label>
+            <input asp-for="ObstacleDescription" />
+            <span asp-validation-for="ObstacleDescription" class="text-sm-center text-red-600"></span>
+        </div>
+
+        <div>
+            <button type="submit">Submit Data</button>
+        </div>
+
+    </form>
+
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+ 

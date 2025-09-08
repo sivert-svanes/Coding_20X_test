@@ -105,11 +105,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\siver\\source\\repos\\Prototype_test\\Prototype_test.csproj",
+      "projectUniqueName": "C:\\Users\\siver\\Source\\Repos\\Coding_20X_test\\Prototype_test\\Prototype_test.csproj",
       "projectName": "Prototype_test",
-      "projectPath": "C:\\Users\\siver\\source\\repos\\Prototype_test\\Prototype_test.csproj",
+      "projectPath": "C:\\Users\\siver\\Source\\Repos\\Coding_20X_test\\Prototype_test\\Prototype_test.csproj",
       "packagesPath": "C:\\Users\\siver\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\siver\\source\\repos\\Prototype_test\\obj\\",
+      "outputPath": "C:\\Users\\siver\\Source\\Repos\\Coding_20X_test\\Prototype_test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,9 +1,19 @@
-﻿namespace Prototype_test.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Prototype_test.Models
 {
     public class ObstacleData
     {
+        [Required(ErrorMessage = "Field is required")]
+        [MaxLength(100)]
         public string ObstacleName { get; set; }
-        public string ObstacleHeight { get; set; }
+
+        [Required(ErrorMessage = "Field is required")]
+        [Range(0, 200)]
+        public double ObstacleHeight { get; set; }
+
+        [Required(ErrorMessage = "Field is required")]
+        [MaxLength(1000)]
         public string ObstacleDescription { get; set; }
     }
 }
